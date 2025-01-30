@@ -19,7 +19,7 @@ img{
     padding-top: 20px;
 }
 .heroPart{
-    background: url(/assets/img/Bg-home.png) no-repeat center;
+    background: url(../img/Bg-home.png) no-repeat center;
     background-size: cover;
 }
 .heroConMain{
@@ -84,7 +84,7 @@ img{
     font-size: 13px;
 }
 .galAreaMain .row .gal_3{
-    background: url(/assets/img/cont-img-1.png) no-repeat;
+    background: url(../img/cont-img-1.png) no-repeat;
     background-size: 100% 100%;
     color: #fff;
     padding: 35px;
@@ -106,7 +106,7 @@ img{
     font-size: 20px;
 }
 .galAreaMain .row .gal_4{
-    background: url(/assets/img/cont-img-big.png) no-repeat;
+    background: url(../img/cont-img-big.png) no-repeat;
     background-size: 100% 100%;
     color: #fff;
     padding: 35px;
@@ -156,7 +156,7 @@ img{
 
 /* Views Area */
 .viewsPart{
-    background: url(/assets/img/bottom-bg.png) no-repeat;
+    background: url(../img/bottom-bg.png) no-repeat;
     background-size: 100% 100%;
 }
 .viewsCon p{
