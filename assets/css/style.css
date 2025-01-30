@@ -1,0 +1,275 @@
+/* Google Fonts Links */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap');
+/* Google Fonts Links End */
+
+*{
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    font-family: "Open Sans", serif;
+}
+img{
+    vertical-align: middle;
+}
+
+/* ================================================================= */
+
+/* Hero Part */
+.nav_bar img{
+    padding-top: 20px;
+}
+.heroPart{
+    background: url(/assets/img/Bg-home.png) no-repeat center;
+    background-size: cover;
+}
+.heroConMain{
+    padding: 190px 0 230px;
+}
+/* .heroCon{
+    padding-top: 90px;
+} */
+.heroCon p{
+    padding-top: 20px;
+    font-size: 12px;
+}
+.navbar .navbar-brand img{
+    position: relative;
+}
+.imgCon{
+    position: absolute;
+}
+.imgCon img {
+    height: 660px;
+    position: absolute;
+    top: -120px;
+    left: -240px;
+}
+/* Hero Part End */
+
+/* ================================================================= */
+
+/* Content Area  */
+.conAreaMain .row .col-6 p{
+    font-size: 12px;
+    color: #959595;
+}
+.conAreaMain .row .right_col{
+    margin-top: 130px;
+}
+/* Content Area End */
+
+/* ================================================================= */
+
+/* Gallery Area */
+.galAreaMain .row .gal_1{
+    background-color: #f5989d;
+    color: #fff;
+    padding: 35px;
+}
+.galAreaMain .row .gal_1 h4{
+    margin-bottom: 30px;
+}
+.galAreaMain .row .gal_1 p{
+    font-size: 13px;
+}
+.galAreaMain .row .gal_2{
+    background-color: #615f7d;
+    color: #fff;
+    padding: 35px;
+}
+.galAreaMain .row .gal_2 h4{
+    margin-bottom: 30px;
+}
+.galAreaMain .row .gal_2 p{
+    font-size: 13px;
+}
+.galAreaMain .row .gal_3{
+    background: url(/assets/img/cont-img-1.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 35px;
+}
+.galAreaMain .row .gal_3 h4{
+    margin-bottom: 30px;
+}
+.galAreaMain .row .gal_3 p{
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.galAreaMain .row .gal_3{
+    position: relative;
+} 
+.galAreaMain .row .gal_3 span{
+    position: absolute;
+    bottom: 25px;
+    right: 32px;
+    font-size: 20px;
+}
+.galAreaMain .row .gal_4{
+    background: url(/assets/img/cont-img-big.png) no-repeat;
+    background-size: 100% 100%;
+    color: #fff;
+    padding: 35px;
+}
+.galAreaMain .row .gal_4 h4{
+    margin-bottom: 30px;
+}
+.galAreaMain .row .gal_4 p{
+    font-size: 13px;
+    margin-bottom: 35px;
+}
+.galAreaMain .row .gal_4{
+    position: relative;
+} 
+.galAreaMain .row .gal_4 span{
+    position: absolute;
+    bottom: 25px;
+    right: 32px;
+    font-size: 20px;
+}
+.galAreaMain .row .gal_5{
+    background-color: #82ca9c;
+    color: #fff;
+    padding: 35px;
+}
+.galAreaMain .row .gal_5 h4{
+    margin-bottom: 30px;
+}
+.galAreaMain .row .gal_5 p{
+    font-size: 13px;
+}
+/* Gallery Area End */
+
+/* ================================================================= */
+
+/* Details Area */
+.detailsAreaMain .row .col-3 h6{
+    color: #67676d;
+}
+.detailsAreaMain .row .col-3 p{
+    font-size: 12px;
+    color: #959595;
+}
+/* Details Area End */
+
+/* ================================================================= */
+
+/* Views Area */
+.viewsPart{
+    background: url(/assets/img/bottom-bg.png) no-repeat;
+    background-size: 100% 100%;
+}
+.viewsCon p{
+    padding-top: 15px;
+    font-size: 12px;
+}
+.viewsConMain{
+    padding: 325px 0 70px;
+}
+/* Views Area End */
+
+/* ================================================================= */
+
+/* Bottom Details Area */
+.botDetailsArea{
+    background-color: #82ca9c;
+    padding: 100px 0;
+}
+.botDetailsConMain .row .col-4 p{
+    font-size: 12px;
+}
+/* Bottom Details Area End */
+
+/* ================================================================= */
+
+/* Bottom Contect Area */
+.upperButton button{
+    background-color: #e1e1e1;
+}
+.bCon1 p{
+    font-size: 12px;
+}
+.lowerButton button{
+    background-color: #82ca9c;
+    border-radius: 3px;
+}
+.icons i{
+    color: #c5c5c5;
+    font-size: 25px;
+    padding: 10px 8px 0 0;
+}
+.bCon1{
+    transition: .4s;
+}
+.bCon1:hover{
+    box-shadow: 0 0 34px 20px rgba(0, 0, 0, 0.1);
+    transform: scale(1.01);
+}
+.bCon1:hover .upperButton button {
+    background-color: #bd8cbf;
+}
+/* Bottom Contect Area End */
+
+/* ================================================================= */
+
+/* Bottom Form Area */
+.bottomPart{
+    background-color: #192431;
+    color: #fff;
+    padding: 100px 0;
+}
+.bottomConMain .left_bot p{
+    font-size: 12px;
+    font-weight: 500;
+}
+.bottomConMain .left_bot .bottomContent p{
+    font-size: 15px;
+}
+.bottomContent ul {
+    list-style: none;
+    padding-left: 0;
+}
+.bottomContent ul li a{
+    text-decoration: none;
+    color: #fff;
+    font-weight: 100;
+}
+.bottomContent ul li{
+    font-size: 13px;
+    padding: 2px 0;
+}
+.formPart label{
+    font-size: 15px;
+}
+.inputGroup{
+    display: flex;
+    overflow: hidden;
+}
+.inputGroup input{
+    flex: 1;
+    padding: 12px;
+    border: none;
+    font-size: 16px;
+    background-color: #fff;
+    outline: none;
+}
+.inputGroup button{
+    width: 70px;
+    height: 58px;
+    background-color: #82ca9c;
+    border: none;
+}
+.inputGroup button i{
+    color: #fff;
+    font-size: 30px;
+}
+.description{
+    color: #57697f;
+    font-size: 12px;
+}
+/* Bottom Form Area End */
+
+/* ================================================================= */
+
+
+
